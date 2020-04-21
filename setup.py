@@ -6,14 +6,14 @@ with open("README.md", "r") as readme_file:
 requirements = ["ipython>=6", "nbformat>=4", "nbconvert>=5", "requests>=2"]
 
 setup(
-    name="notebookc",
+    name="notebook_thaivu",
     version="0.0.1",
     author="Nguyen Thai Vu",
     author_email="vunguyenthai73@gmail.com",
     description="A package to convert your Jupyter Notebook",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/NguyenThaiVu/notebookc",
+    url="https://github.com/NguyenThaiVu/notebook_thaivu",
     packages=find_packages(),
     install_requires=requirements,
     classifiers=[
